@@ -46,7 +46,7 @@ const Chatbot = () => {
           headers: {
             Authorization: `Bearer ${import.meta.env.VITE_OPENAI_API_KEY}`,
             "Content-Type": "application/json",
-            "HTTP-Referer": "https://dharmendra23101.github.io/projects",
+            "HTTP-Referer": "https://dharmendra23101.github.io/DkBot/",
             "X-Title": "Chatbot"
           }
           
