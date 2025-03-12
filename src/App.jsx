@@ -50,12 +50,12 @@ const App = () => {
       <Navbar />
       <main className="main-content">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects user={user} />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/edit-profile" element={<EditProfile />} />
+          <Route path="/DkBot/" element={<Home />} />
+          <Route path="/DkBot/projects" element={<Projects user={user} />} />
+          <Route path="/DkBot/about" element={<About />} />
+          <Route path="/DkBot/register" element={<Register />} />
+          <Route path="/DkBot/login" element={<Login />} />
+          <Route path="/DkBot/edit-profile" element={<EditProfile />} />
         </Routes>
       </main>
       <Footer />
