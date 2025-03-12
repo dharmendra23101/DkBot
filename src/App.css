@@ -1,0 +1,76 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Make sure body takes full width */
+body, html, #root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* This prevents centering */
+  align-items: stretch; /* Ensure full width */
+ 
+}
+
+/* Ensure the container is centered and full width */
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 20px;
+}
+
+
+/* Ensure navbar and footer stretch full width */
+nav, footer {
+  width: 100%;
+}
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.app-container {
+  width: 100%;
+  min-height: 100vh; 
+  background: #f4f6f9; 
+}
+
+
+.main-content {
+  width: 100%;
+  background: #ffffff; 
+}
+
+/* Ensure Navbar and Footer stretch full width */
+.navbar,
+.footer {
+  width: 100%;
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    padding: 10px;
+  }
+}

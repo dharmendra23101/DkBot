@@ -1,0 +1,135 @@
+/* Projects.css */
+.projects-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: "Arial", sans-serif;
+    color: #333;
+}
+
+.projects-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.projects-content {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+/* Login Prompt Styles */
+.login-prompt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding: 40px;
+    background: #f9f9f9;
+    border-radius: 8px;
+}
+
+.lock-icon {
+    font-size: 48px;
+    color: #e74c3c; /* Red to indicate restriction */
+}
+
+.prompt-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.login-link {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background: #3498db;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-link:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+}
+
+.login-link:active {
+    transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .projects-container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .projects-title {
+        font-size: 28px;
+    }
+
+    .projects-content {
+        padding: 20px;
+    }
+
+    .login-prompt {
+        padding: 30px;
+    }
+
+    .lock-icon {
+        font-size: 40px;
+    }
+
+    .prompt-text {
+        font-size: 16px;
+    }
+
+    .login-link {
+        padding: 10px 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .projects-container {
+        margin: 15px;
+        padding: 10px;
+    }
+
+    .projects-title {
+        font-size: 24px;
+    }
+
+    .projects-content {
+        padding: 15px;
+    }
+
+    .login-prompt {
+        padding: 20px;
+    }
+
+    .lock-icon {
+        font-size: 32px;
+    }
+
+    .prompt-text {
+        font-size: 14px;
+    }
+
+    .login-link {
+        padding: 8px 18px;
+        font-size: 14px;
+    }
+}
